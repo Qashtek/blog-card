@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      font-family: 'Poppins', sans-serif;
+    }
+
+    main{
+      padding: 40px;
+      box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.589);
+      width: 320px;
+      margin: 0 auto;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid hsl(0, 0%, 59%);
+      margin-bottom: 40px;
+    }
+
+    main > img{
+      width: 100%;
+      border-radius: inherit;
+    }
+
+    button{
+      background-color: hsl(47, 88%, 63%);
+      color: hsl(0, 0%, 7%);
+      padding: 10px 15px;
+      border-radius: 7px;
+      margin: 10px 0;
+      border: 0;
+      cursor: pointer;
+    }
+
+    .published{
+      margin: 5px 0 10px;
+      font-size: 0.9rem;
+    }
+
+    h1{
+      font-weight: 700;
+      font-size: 1.5rem;
+      color:hsl(0, 0%, 7%);
+    }
+
+    h1:hover{
+      color:hsl(47, 88%, 63%);
+      cursor: pointer;
+    }
+
+
+    .lead{
+      font-size: 1rem;
+      color:hsl(0, 0%, 42%)
+    }
+
+    #profile{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start ;
+      align-items: center;
+      gap: 20px;
+    }
+
+    #profile img{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    #profile span{
+      font-size: 0.9rem;
+      color: hsl(0, 0%, 7%);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <img src="assets/images/illustration-article.svg" alt="">
+    <article>
+      <button>Learning</button>
+      <p class="published">Published 21 Dec 2023</p>
+
+      <h1>HTML & CSS foundations</h1>
+      <p class="lead">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <div id="profile">
+        <img src="assets/images/image-avatar.webp" alt="">
+        <span>Greg Hooper</span>
+      </div>
+    </article>
+
+  </main>
+  
+
+  
+
+
+  
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
